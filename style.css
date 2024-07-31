@@ -1,0 +1,45 @@
+li {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 30px;
+     
+}
+
+.icon {
+    height: 50px;
+    
+    
+}
+
+.webs-porfolio {
+    height: 300px;
+}
+
+.aboutMe {
+    font-size:x-large ;
+    text-align:justify;
+}
+
+.navigationBar {
+    border: 2px solid black;
+    float: right;
+    background-color: azure;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+body {
+    background-color: bisque;
+}
+
+footer {
+    background-color: gray;
+    float:right;
+}
+
+article {
+    background-color:cadetblue;
+}
