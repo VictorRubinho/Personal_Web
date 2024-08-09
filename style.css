@@ -1,34 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+
 li {
     background-color: aqua;
     border: 2px solid black;
     border-radius: 50%;
     margin: 30px;
-     
+    overflow: hidden;  
+}
+
+h1 {
+    text-align: center;
+    font-family: "Maven Pro", serif;
 }
 
 .icon {
-    height: 50px;
-    
-    
+    height: 55px;
+       
 }
 
-.webs-porfolio {
+.webs-porfolio--1 {
     height: 300px;
+    background-color: beige;
+}
+
+.webs-porfolio--2 {
+    height: 300px;
+    background-color: rgb(199, 199, 97);
+}
+
+.webs-porfolio--3 {
+    height: 300px;
+    background-color: rgb(163, 163, 17);
 }
 
 .aboutMe {
     font-size:x-large ;
     text-align:justify;
+    font-family: "Maven Pro", serif;
 }
 
 .navigationBar {
     border: 2px solid black;
     float: right;
     background-color: azure;
+    position: fixed;
+    right: 10px;
+    overflow: hidden;
+        
 }
 
 .textCenter {
     text-align: center;
+    
+    margin: 100px auto;
+    background-color:cadetblue;
+    
+
 }
 
 body {
@@ -42,4 +72,9 @@ footer {
 
 article {
     background-color:cadetblue;
+}
+
+.portfolio__flexbox{
+    display: flex;
+    justify-content: center;
 }
